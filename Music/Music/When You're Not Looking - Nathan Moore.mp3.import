@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/When You're Not Looking - Nathan Moore.mp3-c67d41fd2d0f25a2a3bea3694c03192c.mp3str"
+
+[deps]
+
+source_file="res://Music/Music/When You're Not Looking - Nathan Moore.mp3"
+dest_files=[ "res://.import/When You're Not Looking - Nathan Moore.mp3-c67d41fd2d0f25a2a3bea3694c03192c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

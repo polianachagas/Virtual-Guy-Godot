@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Arcade-Oddities.mp3-1ed0cfd352caadd876145020bd5da313.mp3str"
+
+[deps]
+
+source_file="res://Music/Music/Arcade-Oddities.mp3"
+dest_files=[ "res://.import/Arcade-Oddities.mp3-1ed0cfd352caadd876145020bd5da313.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

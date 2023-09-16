@@ -1,0 +1,57 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Assets/Items/Fruits/FruitsBag.png" type="Texture" id=1]
+[ext_resource path="res://PressStart2P.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Scripts/Score.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Main Characters/heart.png" type="Texture" id=4]
+[ext_resource path="res://Scripts/LifeHolder.gd" type="Script" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -156.0
+
+[node name="holder" type="Control" parent="HBoxContainer"]
+margin_right = 158.0
+margin_bottom = 36.0
+size_flags_horizontal = 3
+script = ExtResource( 5 )
+
+[node name="lifes" type="TextureRect" parent="HBoxContainer/holder"]
+margin_top = 1.0
+margin_right = 32.0
+margin_bottom = 32.0
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 2
+
+[node name="holder2" type="Control" parent="HBoxContainer"]
+margin_left = 162.0
+margin_right = 320.0
+margin_bottom = 36.0
+size_flags_horizontal = 3
+
+[node name="icon" type="TextureRect" parent="HBoxContainer/holder2"]
+margin_top = 1.0
+margin_right = 32.0
+margin_bottom = 32.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="score" type="Label" parent="HBoxContainer/holder2"]
+margin_left = 31.0
+margin_top = -6.0
+margin_right = 87.0
+margin_bottom = 38.0
+custom_fonts/font = SubResource( 1 )
+text = "00"
+align = 2
+valign = 1
+script = ExtResource( 3 )

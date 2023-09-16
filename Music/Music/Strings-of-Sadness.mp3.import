@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Strings-of-Sadness.mp3-2fad902fc43b3daa6cb407d2d6e2c7aa.mp3str"
+
+[deps]
+
+source_file="res://Music/Music/Strings-of-Sadness.mp3"
+dest_files=[ "res://.import/Strings-of-Sadness.mp3-2fad902fc43b3daa6cb407d2d6e2c7aa.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

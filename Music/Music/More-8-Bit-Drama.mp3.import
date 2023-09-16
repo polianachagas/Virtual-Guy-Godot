@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/More-8-Bit-Drama.mp3-989da48ec8ea91a84a05382176512ad5.mp3str"
+
+[deps]
+
+source_file="res://Music/Music/More-8-Bit-Drama.mp3"
+dest_files=[ "res://.import/More-8-Bit-Drama.mp3-989da48ec8ea91a84a05382176512ad5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
